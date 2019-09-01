@@ -1,19 +1,23 @@
 ---
 title: Windows Equivalent of Linux Touch Command
 date: "2019-09-01T22:40:32.169Z"
-description: This is a custom description for SEO and Open Graph purposes, rather than the default generated excerpt. Simply add a description field to the frontmatter.
+description: How to Create and Delete Files and Directories from Windows Command Prompt.
 ---
 
-## In case you have been using Linux all this time to create files and now is the time to get something done in windows 
-and there is a need to create a file, You launch the windows command prompt and as usual you typed in " touch fileName.txt" and
-you're welcomed with the "'touch' is not recognized as an internal or external command,
-operable program or batch file.".
-You'd be like "What the Heck!, why is this not working?"
-It's because you're on windows, some commands are different.
+On windows machine, you tried using touch filename.txt and you get an error; 
+>'touch' is not recognized as an internal or external command, operable program or batch file.
+and the first question that comes to your mind is **"What the Heck!, why is this not working? Do I need to create these files by hand (and modify them to change the timestamp) in order to implement this sort of command?"**
 
->Windows doesn’t have a native “touch” equivalent, which is a native Linux program that allows you to create empty files and change timestamps.
+![Touch Command Error](../images/touchcommand.png)
+
+The answer is **"That doesn't seem very node-ish"**
+There are windows equivalent of using "touch",
+
+>Windows doesn’t have a native "touch" equivalent, which is a native Linux program that allows you to create empty files and change timestamps.
 
 Below are some of the equivalent commands that you can use to create a file on Windows CMD using 'filename.txt' as an example;
+
+![Echo Windows Command](../images/echocommand.png)
 
 - touch>filename.txt
 - copy nul filename.txt
