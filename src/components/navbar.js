@@ -2,13 +2,12 @@ import React from 'react'
 import { Link } from "gatsby"
 
 
-const navbar = (props) => {
-    const {toLink, pageName} = props;
+const navbar = () => {
     return (
         <div>
-            <Link to="/contact/">Contact</Link>
+            <Link to="/contact/" >Contact</Link>
             <br />
-            <Link to="/about/">About</Link>
+            <Link to="/about/" >About</Link>
         </div>
     )
 }
